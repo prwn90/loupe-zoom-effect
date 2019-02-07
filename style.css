@@ -1,0 +1,47 @@
+body {
+	background-image: linear-gradient(to right, red , yellow);
+	display: flex;
+  	
+}
+
+h1{
+	
+	color: snow;
+	font-family: Verdana; 
+	font-size: 38px;
+	margin-top: 230px;
+	margin-left: 50px;
+}
+
+
+.product {
+	width: 400px;
+	height: 400px;
+	background-image: url('photo.jpg');
+	background-size: 400px;
+	position: relative;
+	margin-right: 20px;
+	margin-left: 100px;
+	margin-top: 70px;
+	
+}
+
+.loupe {
+	width: 200px;
+	height: 200px;
+	border: 1px solid #c9c9c9;
+	position: absolute;
+	top: 0;
+	left: 0;
+	box-sizing: border-box;
+	background: #c9c9c9;
+	opacity: 0.45;
+}
+
+.zoom {
+  width: 400px;
+  height: 400px;
+  background-image: url('photo.jpg');
+  background-size: 800px;
+  background-repeat: no-repeat;
+}
